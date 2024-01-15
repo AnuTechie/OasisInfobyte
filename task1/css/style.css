@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300;1,400;1,700&family=Playfair+Display:ital@1&family=Sevillana&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif; 
+}
+.container
+{
+	width:100%;
+	min-height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)),url("musics.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin:0px;
+	position: fixed;
+}
+.container h1{
+		text-align: center;
+		font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		letter-spacing: 1.5px;
+		padding: 5px;
+		color: #3f0303;
+		margin-top:55px;
+	}
+.row
+{
+	width:100%;
+	padding:0px 80px;
+}
+.navbar{
+	width:100%;
+	display :flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0px;
+	position: relative;
+	z-index: 1;		
+}
+.navbar ul{
+	display:flex;
+	justify-content : center;
+	align-items:center;
+	margin-top: 10px;
+}
+.navbar ul li{
+	list-style:none;
+}
+/*.navbar ul li a{
+	padding: 10px 16px;
+	border-radius: 5px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+	font-size: 16px;
+    color: #310567;
+	text-decoration: none;
+}
+.navbar ul li a:hover
+{
+	background-color: #d1becb;
+}*/
+.navbar img {
+	display: inline-block;
+	width: 100px; /* Set the width of the logo image */
+	height: auto; /* Maintain the aspect ratio */
+	margin-top: 0px;
+	margin-left: 60px;
+}
+.navbar ul li a {
+	position: relative;
+    padding: 10px 15px;
+    border-radius: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #310567;
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+	
+}
+.navbar ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px; 
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease; 
+}
+
+.navbar ul li a:hover::before {
+    background-color: #310567; 
+}
+
+.navbar ul li a:hover {
+    background-color: rgba(49, 5, 103, 0.1); 
+}
+.content{
+	width: 50%;
+	min-height:100vh;
+	position:absolute;
+	top:0;
+	Left:0;
+	display:flex;
+	justify-content: center;
+	margin-left: 300px;
+	flex-direction:column;
+}
+/*.content h2{
+	margin-top: 70px;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 25px;
+	color:#4F3410;
+	text-align: left;
+	margin-left: 290px;
+	display: flex;
+}*/
+.content p
+{
+	text-align: center;
+	justify-content: center;
+	margin-left:10px;
+	font-size:16px;
+	color: #0f0c0a;
+	line-height: 1.5 ;
+	font-weight: bold;
+	font-style: italic;
+}
+.content a{
+	text-decoration:none;
+	margin-top: 20px;
+	margin-left: 200px;
+	font-size: 19px;
+	display: inline-block;
+	Letter-spacing: 2px;
+	padding: 12px 20px;
+	width: 40%;
+	border-radius: 5px;
+	color: #3a0423;
+	text-align: center;
+	font-weight: bold;	
+}
+.content a:hover{
+	background-color:#d1becb;
+}
+span{
+	color: rgb(48, 7, 86);
+	font-size: 45px;
+}
+	
+	
+		
