@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background-image: url("sample.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    background-position: fixed;
+}
+.navbar{
+    width:86%;
+    display:flex;
+    margin:auto;
+    padding:15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width:90px;
+    cursor:pointer;
+    margin-top: 1%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: 2%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color:darkslategray;
+    margin-top: 1% ;
+}
+ul li a:hover{
+    color:crimson;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 25px;
+    color:sienna;
+}
+.info h3{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px;
+    font-style: bold;
+}
+.info span{
+    color: navy;
+}
+.info h4{
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 24px; 
+} 
+.info a{
+    text-decoration: none;
+    color:#fff;
+    background: rgb(36,32,30);
+    margin:26px 0;
+    padding: 4px 6px;
+    border-radius:10px;
+    display: inline-block;
+}
+.info a:hover{
+    background:brown;
+}
+.image{
+    width:30%;
+    height: 60%;
+    position: absolute;
+    right:100px;
+    bottom:0;
+}
+.image img{
+    position: absolute;
+    height: 140%;
+    left:40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+.image:hover .girl{
+    left:55%
+}
+icon a{
+    text-decoration: none;
+    color: #000;
+}
+/*.icons ion-icon{
+    margin-left: 7%;
+    color:#000;
+    margin-right: -60px;
+    font-size: 20px;
+}
+.icons ion-icon:hover{
+    color:blueviolet; 
+}*/
+/*.skills, .services, .contact {
+    margin-top: 50px;
+    background-image: url("sample.jpg");
+}
+
+.skills h2, .services h2, .contact h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skills ul, .services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li, .services li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.contact p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}*/
